@@ -1,0 +1,10 @@
+body 
+{
+    /*background-color: aquamarine;
+    background-repeat: no-repeat;*/
+background-image: url("IA2.jpg");
+background-size: cover;
+}
+.intro{
+    color: coral;
+}
