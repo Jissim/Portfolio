@@ -38,14 +38,16 @@ nav ul li a:hover{
     margin-top: 1%;
 }
 .detel h1{
+    width: fit-content;
+    border: 1rem double brown ;
     font-size: 50px;
     color: #212121;
     margin: 20px;
 }
-span{
-    color: red;
-}
-.detel p{
+.detel2 {
+    margin-top: 50px;
+    font-size:20px;
+    text-align: left;    
     color: #555;
     line-height: 22px;
 }
@@ -59,16 +61,6 @@ span{
     margin: 30px 0;
     border-radius: 5px;
 }
-
-/*image{
-background-image:url('wallpaper.png');
-}
-
-/*.bankai{
-    max-width: 10%;
-}
-.shikai{
-    max-width: 60%;
-/}nav img {
-    max-width: 33%;
+span{
+    color: red;
 }
