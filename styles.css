@@ -45,6 +45,8 @@ nav ul li a:hover{
     margin: 20px;
 }
 .detel2 {
+    width:  800px;
+    border: 1rem dashed brown ;
     margin-top: 50px;
     font-size:20px;
     text-align: left;    
