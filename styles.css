@@ -58,6 +58,9 @@ nav ul li a:hover{
     margin: 30px 0;
     border-radius: 5px;
 }
+.detel2 p{
+    margin-left: 109px;
+}
 span{
     color: red;
 }
@@ -151,4 +154,34 @@ nav ul li a:hover{
     background: black;
     border-color: black;
     color: #fff;
+}
+.V1{
+    margin-left: 80px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #0b0b27;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px;
+}
+.V2{
+    margin: 30px 80px ;
+    line-height: 34px;
+    font-weight: 700;
+    color: #0b0b27;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px; 
+}
+.V3{
+    margin: 30px 80px ;
+    line-height: 34px;
+    font-weight: 700;
+    color: #0b0b27;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px; 
+}
+.alert{
+    margin-left: 300px;
 }
