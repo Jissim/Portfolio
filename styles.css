@@ -46,7 +46,7 @@ nav ul li a:hover{
     font-size:20px;
     text-align: left;    
     color: rgb(50, 50, 50);
-    line-height: 22px;
+    line-height: 30px;
 }
 .detel a{
     background:#212121;
@@ -156,6 +156,7 @@ nav ul li a:hover{
     color: #fff;
 }
 .V1{
+    font-size: 30px;
     margin-left: 80px;
     line-height: 34px;
     font-weight: 700;
@@ -165,6 +166,7 @@ nav ul li a:hover{
     padding-left: 25px;
 }
 .V2{
+    font-size: 30px;
     margin: 30px 80px ;
     line-height: 34px;
     font-weight: 700;
@@ -174,6 +176,7 @@ nav ul li a:hover{
     padding-left: 25px; 
 }
 .V3{
+    font-size: 30px;
     margin: 30px 80px ;
     line-height: 34px;
     font-weight: 700;
@@ -183,5 +186,33 @@ nav ul li a:hover{
     padding-left: 25px; 
 }
 .alert{
+    font-size: 25px;
+    text-decoration: underline;
+    color: red;
     margin-left: 300px;
 }
+.alert01{
+    text-indent: 60px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.V4{
+    font-size: 30px;
+    margin: 30px 80px ;
+    line-height: 34px;
+    font-weight: 700;
+    color: #0b0b27;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px; }
+    .information{
+        margin-left: 109px;
+        width:  800px;  
+        margin-top: 50px;
+        font-size:20px;
+        text-align: left;    
+        color: rgb(50, 50, 50);
+        line-height: 30px;
+    }
+    
