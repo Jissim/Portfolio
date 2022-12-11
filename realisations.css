@@ -1,0 +1,11 @@
+.nav_body
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.left_column, .right_column
+{
+  display: flex;
+  flex-direction: column;
+}
