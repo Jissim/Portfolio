@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv ="X-UA-Compatible" content="IE=edge">
-        <meta name ="viewport" content="width=device-width, initial-scales= 1.0">
-        <title>Mon portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="realisations.css">
-        </head>
-    <body>
-        <div>
-            <nav>
-                
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="Realisations.html">Realisations</a></li>
-                    <li><a href="Veille.html">Veille</a></li>
-                    <li><a href="Contact1.html">Contact</a></li>
-                </ul>
-            </nav>
+<head>
+	<meta charset="UTF-8">
+	<title>Réalisations | Mon portfolio</title>
+    <link rel="stylesheet" type="text/css" href="realisations.css">
 
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="realisations.html">Réalisations</a></li>
+				<li><a href="Veille.html">Veille informatique</a></li>
+                <li><a href="Contact1.html" target="_blank">Contact</a></li>
 
-            <div class="nav_body">
-              <div class="left_column">
-                <div class="Demineur">
-                    <h2>Jeu démineur en console </h2>
-                    <a href="https://github.com/Jissim/Demineur.git">Projet entier</a>
-                </div>
-                <div class="vilain">
-                    <img src="demineur.gif" width="750" >
-                </div>
-              </div>
+			</ul>
+		</nav>
+	</header>
+	<main class="realisations">
+		<h1>Mes réalisations</h1>
+		<div class="projet">
+			<h2>Déploiment Jenkins</h2>
+            <img src="jenkins.png" alt="Projet 2">
+			<p>Découverte de jenkins et build d'un job freestyle</p>
+            <a href="Doc Déploiement Jenkins.pdf" class="btn-download">Doc Jenkins</a>
 
-              <div class="right_column">
-                <div class = "Festival">
-                    <p class="Festival02">Projet festival</p>
-                    <img src="Festival.PNG">
-                    <a href="https://github.com/Jissim/Festival02">Projet entier</a>
-                </div>
-                <div class="Personnel">
-                    <p class="Personnel02">Projet Personnel</p>
-                    <img src="Perso.jpg">
-                    <a href="https://github.com/Jissim/personnel">Projet entier</a>
-                </div>
-              </div>
-            </div>
+		</div>
+		<div class="projet">
+			<h2>Démineur</h2>
+			<img src="demineur.gif" alt="Projet 2">
+			<p>Codage d'un démineur en langage C, console.</p>
+			<a href="https://github.com/Jissim/Demineur.git">Voir le projet</a>
+		</div>
+		<div class="projet">
+			<h2>Personnel</h2>
+			<img src="personnel.jpeg" alt="Projet 3">
+			<p>Description du projet 3</p>
+			<a href="https://github.com/Jissim/personnel.git">Voir le projet</a>
+		</div>
+		<div class="projet">
+			<h2>Parking</h2>
+			<img src="dl.jpg" alt="Projet 4">
+			<p>Application web de gestion de parking,avec plusieurs interfaces </p>
+			<a href="https://github.com/Jissim/parkingOFF.git">Voir le projet</a>
+		</div>
+	</main>
+</body>
 </html>
